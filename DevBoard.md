@@ -29,11 +29,17 @@
 ![Schematic](/images/CustomDevBoardSchem.png)
 
 [ESP32 module](#311-esp32-module)
+
 [Reset and boot/user buttons](#312-reset-and-bootuser-buttons)
+
 [BMS block (LiPo supply)](#313-bms-block-lipo-supply)
+
 [3.7 V to 3.3 V linear regulator](#314-37-v-to-33-v-33-v-linear-regulator)
+
 [Onboard LED](#315-onboard-led)
+
 [Connectors (GPIO expansion via pin headers)](#316-connectors-gpio-expansion-via-pin-headers)
+
 [UART header](#317-uart-header)
 
 ### Used Documentation
