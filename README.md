@@ -28,5 +28,5 @@
 
 # Blockschematic
 
-![Blockschamtic](/images)
+![Blockschamtic](/images/OSA_BlockSchematic.jpg)
 
