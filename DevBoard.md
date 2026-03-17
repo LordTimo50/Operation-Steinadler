@@ -1,6 +1,6 @@
 # Dev-Board-Infrastructure
 
-# 1. Bauteilauswahl
+# 1. Picked Parts
 
 | ID | Name                                       | Designator           | Quantity | Price |
 | -- | ------------------------------------------ | -------------------- | -------- | ----- |
