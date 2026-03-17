@@ -21,7 +21,7 @@
 
 |Unit|Description|
 |----|-----------|
-|Micro-Controller|adada|
+|Micro-Controller|adadasda|
 |IMU|Measurement Unit to stabalize the drone|
 |Voltagesource|LiPo|
 |Control via Joysticks|2 Joysticks, left Stick: throttle & yaw, right Stick: pitch & roll|
