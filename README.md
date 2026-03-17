@@ -20,7 +20,7 @@
 
 # Simple Electrical Description
 
-|$\mu$C|adad|
+|Micro-Controller|adada|
 |IMU|Measurement Unit to stabalize the drone|
 |Voltagesource|LiPo|
 |Control via Joysticks|2 Joysticks  
