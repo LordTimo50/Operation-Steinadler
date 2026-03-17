@@ -42,7 +42,7 @@ For transmission, **MAVLink** was used, which we studied during this session.
 
 ## 5. Notes
 
-To build the simulator: [file:11]
+To build the simulator:
 
 ```bash
 cd flix
