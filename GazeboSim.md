@@ -1,7 +1,6 @@
 # Operation Steinadler - Gazebo Simulation
 
 **Author:** Timo Trummer  
-**Timeframe:** March 2026 – June 2026
 
 ---
 
@@ -49,7 +48,7 @@ To build the simulator: [file:11]
 cd flix
 make simulation        # or: make simulator
 ```
-5.1 Ubuntu / OS versions and issues
+### 5.1 Ubuntu / OS versions and issues
 
 - Windows: Almost no support for Gazebo.
 
