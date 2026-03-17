@@ -18,3 +18,7 @@
 |Wireless||
 |BMS||
 
+# Blockschematic
+
+![Blockschematic](images/SimpleBlockSchematic.png)
+
