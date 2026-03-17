@@ -60,3 +60,13 @@ make simulation        # or: make simulator
 
 - Ubuntu 20.04: No problems.
 
+## 5.1 Frame / characteristics
+
+- 6cm x 3.1cm
+
+- layer 0.2mm
+
+- line 0.4mm
+
+- infill 100%
+
