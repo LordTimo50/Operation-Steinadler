@@ -1,5 +1,4 @@
 # Operation-Steinadler ESP32-Drone
------------------------------------------
 
 # Developers
 
@@ -29,5 +28,5 @@
 
 # Blockschematic
 
-![Blockschematic](images/SimpleBlockSchematic.png)
+![Blockschamtic]()
 
