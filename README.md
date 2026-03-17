@@ -18,6 +18,15 @@
 |Wireless||
 |BMS||
 
+# Simple Electrical Description
+
+|$\mu$C|adad|
+|IMU|Measurement Unit to stabalize the drone|
+|Voltagesource|LiPo|
+|Control via Joysticks|2 Joysticks  
+                      left Stick: throttle & yaw
+                      right Stick: pitch & rol|
+
 # Blockschematic
 
 ![Blockschematic](images/SimpleBlockSchematic.png)
