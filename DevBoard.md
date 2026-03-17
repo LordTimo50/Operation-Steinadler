@@ -27,6 +27,17 @@
 ### Complete schematic
 
 ![Schematic](/images/CustomDevBoardSchem.png)
+
+### Used Documentation
+
+![ESP32 Ducmenation](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32/esp-dev-kits-en-master-esp32.pdf)
+
+![ESP32 Reference Schematic 1](https://dl.espressif.com/dl/schematics/esp32_devkitc_v4_sch.pdf)
+
+![ESP32 Reference Schematic 2](https://dl.espressif.com/dl/schematics/SCH_ESP32-S3-DevKitC-1_V1.1_20221130.pdf)
+
+![ESP32 Reference Schematic 3](https://documentation.espressif.com/esp32-mini-1_datasheet_en.pdf)
+
 ---
 
 ## 2.1 ESP32 module
