@@ -2,7 +2,7 @@
 
 # Developers
 
-|Name|E-Mail| |
+|Name|E-Mail|Function|
 |----|------|-|
 |Emil Schoberegger|emil.schoberegger@bulme.at|Team Manager, Hardware-Design|
 |Zsigmond Szalay|zsigmond.szalay@bulme.at|Software, Testing|
