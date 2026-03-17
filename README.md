@@ -20,6 +20,8 @@
 
 # Simple Electrical Description
 
+|Unit|Description|
+|----|-----------|
 |Micro-Controller|adada|
 |IMU|Measurement Unit to stabalize the drone|
 |Voltagesource|LiPo|
