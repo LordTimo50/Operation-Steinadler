@@ -28,5 +28,5 @@
 
 # Blockschematic
 
-![Blockschamtic]()
+![Blockschamtic](/images)
 
