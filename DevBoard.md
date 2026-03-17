@@ -1,5 +1,9 @@
 # Dev-Board-Infrastructure
 
+**Author: Emil Schoberegger**
+
+---
+
 # 1. Picked Parts
 
 | ID | Name                                       | Designator           | Quantity | Price |
