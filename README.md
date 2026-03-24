@@ -27,5 +27,6 @@
 |Control via Joysticks|2 Joysticks, left Stick: throttle & yaw, right Stick: pitch & roll|
 
 # Blockschematic
-
+<p allign="center">
 <img src="/images/OSA_BlockSchematic.jpg" width="500">
+</p>
