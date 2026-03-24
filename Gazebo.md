@@ -89,5 +89,10 @@ Just like the real drone, the simulator can be controlled using a USB remote con
 ---
 
 ## 4. Piloting
-To start the flight, arm the drone with the ```bash /arm ``` command, or with moving the throttle stick to the bottom right position:
+To start the flight, arm the drone with the ```bash arm ``` command, or with moving the throttle stick to the bottom right position:
+
 <img src="images/arming.svg" width ="290">
+
+To disarm, use the ```bash disarm ``` command, or move the throttle stick to the bottom left position:
+
+<img src="images/disarming.svg" width ="290">
