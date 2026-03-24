@@ -75,5 +75,8 @@ Just like the real drone, the simulator can be controlled using a USB remote con
 4. Run the simulation.
 5. Open QGroundControl app. It should connect and begin showing the virtual drone's telemetry automatically.
 6. Go to the settings and enable Virtual Joystick. Auto-Center Throttle setting should be disabled.
-7. Use the virtual joystick to fly the drone!
+7.  Use the virtual joystick to fly the drone!
+
+>💡 **Tip** 
+> Decrease ```bash CTL_TILT_MAX ```parameter when flying using the smartphone to make the controls less sensitive.
 
