@@ -1,4 +1,4 @@
-# Operation Steinadler - Gazebo Simulation
+# Gazebo Simulation
 
 **Author:** Timo Trummer 
 
@@ -63,3 +63,17 @@ make simulator
 ```
 
 ---
+
+## 3. Usage
+
+Just like the real drone, the simulator can be controlled using a USB remote control or a smartphone.
+
+### Control with smartphone
+1. Install QGroundControl mobile app on your smartphone. For iOS, use QGroundControl build from TAJISOFT.
+2. Connect your smartphone to the same Wi-Fi network as the machine running the simulator.
+3. If you're using a virtual machine, make sure that its network is set to the bridged mode with Wi-Fi adapter selected.
+4. Run the simulation.
+5. Open QGroundControl app. It should connect and begin showing the virtual drone's telemetry automatically.
+6. Go to the settings and enable Virtual Joystick. Auto-Center Throttle setting should be disabled.
+7. Use the virtual joystick to fly the drone!
+
