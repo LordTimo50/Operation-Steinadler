@@ -34,13 +34,13 @@ void setup() {
   pinMode(RECHTS_L,OUTPUT);
   pinMode(LINKS_L,OUTPUT);
 
+  
+
+  // LEDS fuer rechten Joystick
   pinMode(OBEN_R,OUTPUT);
   pinMode(UNTEN_R,OUTPUT);
   pinMode(RECHTS_R,OUTPUT);
   pinMode(LINKS_R,OUTPUT);
-
-  // LEDS fuer rechten Joystick
-  
 }
 
 
