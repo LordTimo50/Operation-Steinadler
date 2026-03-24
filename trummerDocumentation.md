@@ -1,4 +1,4 @@
-# Operation Steinadler - Gazebo Simulation
+# Operation Steinadler - Trummer Documentation
 
 **Author:** Timo Trummer  
 
