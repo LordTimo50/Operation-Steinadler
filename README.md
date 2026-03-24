@@ -28,5 +28,4 @@
 
 # Blockschematic
 
-![Blockschamtic](/images/OSA_BlockSchematic.jpg)
-
+<img src="/images/OSA_BlockSchematic.jpg" width="400">
