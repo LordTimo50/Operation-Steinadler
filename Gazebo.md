@@ -20,6 +20,7 @@ It is possible to control the simulation with either a USB remote control, or wi
 ```bash
 git clone https://github.com/okalachev/flix.git && cd flix
 ```
+Downloads the Flix project from GitHub to your computer.
 
 2. Install Arduino CLI:
 ```bash
