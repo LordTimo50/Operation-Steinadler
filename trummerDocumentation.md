@@ -62,7 +62,7 @@ make simulation        # or: make simulator
 
 ## 5.1 Frame / characteristics
 
-- 6cm x 3.1cm
+- 56x21mm + Antenne
 
 - layer 0.2mm
 
