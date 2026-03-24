@@ -24,6 +24,8 @@ git clone https://github.com/okalachev/flix.git && cd flix
 ```
 
 2. Install Arduino CLI:
+
+The Arduino CLI (Command Line Interface) allows compiling and uploading Arduino code without the graphical IDE.
 ```bash
 curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | BINDIR=~/.local/bin sh
 ```
@@ -42,6 +44,8 @@ source ~/.bashrc
 ```
 
 4. Install SDL2 and other dependencies:
+
+libsdl2-dev provides libraries for graphics, audio, and input handling.
 ```bash
 sudo apt-get update && sudo apt-get install build-essential libsdl2-dev
 ```
