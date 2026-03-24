@@ -8,7 +8,7 @@
 
 The Flix drone simulator is based on Gazebo 11 and runs the firmware code in virtual physical environment.
 
-We would recommend building the simuation on Ubuntu 20.04, because of the avalable documentation and simple installation.
+We would recommend building the simuation on Ubuntu 20.04, because of the available documentation and simple installation.
 
 It is possible to control the simulation with either a USB remote control, or with the QGroundcontrol App.
 
