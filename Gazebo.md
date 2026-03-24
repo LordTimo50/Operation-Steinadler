@@ -51,6 +51,8 @@ sudo apt-get update && sudo apt-get install build-essential libsdl2-dev
 ```
 
 5. Add your user to the input group to enable joystick support (you need to re-login after this command):
+
+Adds your user to the input group so the simulator can access joystick input devices.
 ```bash
 sudo usermod -a -G input $USER
 ```
