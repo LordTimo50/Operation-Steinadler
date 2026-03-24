@@ -17,6 +17,7 @@ It is possible to control the simulation with either a USB remote control, or wi
 ## 2. Installation 
 
 1. Clone the Flix repository using it:
+
 Downloads the Flix project from GitHub to your computer.
 ```bash
 git clone https://github.com/okalachev/flix.git && cd flix
