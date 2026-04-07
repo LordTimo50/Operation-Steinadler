@@ -70,3 +70,22 @@ make simulation        # or: make simulator
 
 - infill 100%
 
+---
+
+
+## Bisher (55 mm Props):
+
+Wheelbase (diagonal Motor‑zu‑Motor): ≈ 100 mm.
+
+Abstand CoG → Motor: ≈ 50 mm.
+
+Empfohlene Prop‑Clearance: ~5–8 mm zwischen den 55‑mm‑Scheiben (knapp).
+
+## Neu (65 mm Props):
+
+Ziel‑Wheelbase: 115–120 mm (100 mm × 1,15…1,2).
+
+Abstand CoG → Motor: 57,5–60 mm (Wheelbase / 2).
+
+Prop‑Clearance: ~10 mm zwischen 65‑mm‑Scheiben (mehr Sicherheit).
+
