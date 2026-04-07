@@ -73,7 +73,7 @@ make simulation        # or: make simulator
 ---
 
 
-## Bisher (55 mm Props):
+## Original (55 mm Props):
 
 Wheelbase (diagonal Motor‑zu‑Motor): ≈ 100 mm.
 
