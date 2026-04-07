@@ -97,5 +97,28 @@ This provides a permanently integrated diagnostic LED without requiring addition
 
 Multiple headers are used to make routing more felxible and necessary pins easy to access. 
 
+# 3. Layout
 
+### Complete Layout:
+
+![Layout](/images/ESP32LayoutTop.png)
+![Layout](/images/ESP32LayoutBottom.png)
+
+---
+
+## 3.1 Design Rules
+
+| Track Width (min) | Clearance (min) | Via Diameter (min) |Via drill Diameter (min) |
+|-------------------|-----------------|--------------------|-------------------------|
+| 0,3mm             | 0,15mm          | 0,8mm              | 0.6mm                   |
+
+Power supply traces should be 0,6mm and signal traces 0,3mm.
+
+---
+
+## 3.2 Component Placement
+
+The 3.7 V to 3.3 V linear regulator and the battery managment system have been moved to the **bottom layer** for easier routing.
+
+> **All capacitors need to be placed near their designated IC's in order for them to fulfill their purpose!**
 
