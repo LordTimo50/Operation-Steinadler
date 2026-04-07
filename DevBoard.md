@@ -2,6 +2,7 @@
 
 **Author: Emil Schoberegger**
 
+Weblink to EasyEDA: [link](https://u.easyeda.com/join?type=project&key=d9cf635e8ea5f083779dda9d56f37d2b&inviter=fb4da0c93cf14f358111e43763df3262)
 ---
 
 # 1. Picked Parts
