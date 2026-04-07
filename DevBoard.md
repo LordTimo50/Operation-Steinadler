@@ -2,36 +2,33 @@
 
 **Author: Emil Schoberegger**
 
-Weblink to EasyEDA: [link](https://u.easyeda.com/join?type=project&key=d9cf635e8ea5f083779dda9d56f37d2b&inviter=fb4da0c93cf14f358111e43763df3262)
+#### Weblink to EasyEDA: [link](https://u.easyeda.com/join?type=project&key=d9cf635e8ea5f083779dda9d56f37d2b&inviter=fb4da0c93cf14f358111e43763df3262)
 ---
 
 # 1. Picked Parts
 
-| ID | Name                                      | Designator              | Quantity | Supplier Part | Price |
-|----|-------------------------------------------|-------------------------|----------|---------------|-------|
-| 1  | ESP32-WROOM-32E(8MB)                      | U1                      | 1        | C701342       | 4.371 |
-| 2  | LiPo                                      | BT1                     | 1        |               |       |
-| 3  | AMS1117-3.3_C347222                       | U3                      | 1        | C347222       | 0.042 |
-| 4  | DW01A_C351410                             | U2                      | 1        | C351410       | 0.042 |
-| 5  | 8205A_C2762931                            | Q1                      | 1        | C2762931      | 0.03  |
-| 6  | 22uF                                      | C2                      | 1        | C602037       | 0.034 |
-| 7  | 10uF                                      | C4,C5                   | 2        | C315248       | 0.009 |
-| 8  | 100nF                                     | C8,C1,C3,C6,C9,C10      | 6        | C1525         | 0.001 |
-| 9  | 100nF                                     | C7                      | 1        | C60474        | 0.001 |
-| 10 | 10kΩ                                      | R1                      | 1        | C25744        | 0.001 |
-| 11 | 2kΩ                                       | R4                      | 1        | C4109         | 0.001 |
-| 12 | 560Ω                                      | R2                      | 1        | C25126        | 0.001 |
-| 13 | 470Ω                                      | R3                      | 1        | C25117        | 0.001 |
-| 14 | KH-2.54PH180-1X14P-L11.5                  | J1,J2                   | 2        | C2905490      | 0.144 |
-| 15 | HX PH254-01-04-Z-L11.5 STRAIGHT PIN HEADER| J3                      | 1        | C52016392     | 0.023 |
-| 16 | PTS645SH50SMTR92LFS                       | SW1,SW2                 | 2        | C221869       | 0.418 |
-| 17 | FC-2012HRK-620D                           | LED1                    | 1        | C84256        | 0.013 |
+| ID | Name                                      | Designator              | Quantity | Price |
+|----|-------------------------------------------|-------------------------|----------|-------|
+| 1  | ESP32-WROOM-32E(8MB)                      | U1                      | 1        | 4.371 |
+| 2  | LiPo                                      | BT1                     | 1        |       |
+| 3  | AMS1117-3.3_C347222                       | U3                      | 1        | 0.042 |
+| 4  | DW01A_C351410                             | U2                      | 1        | 0.042 |
+| 5  | 8205A_C2762931                            | Q1                      | 1        | 0.03  |
+| 6  | 22uF                                      | C2                      | 1        | 0.034 |
+| 7  | 10uF                                      | C4,C5                   | 2        | 0.009 |
+| 9  | 100nF                                     | C1, C3, C6, C7          | 4        | 0.001 |
+| 10 | 10kΩ                                      | R1                      | 1        | 0.001 |
+| 12 | 560Ω                                      | R2                      | 1        | 0.001 |
+| 13 | 470Ω                                      | R3                      | 1        | 0.001 |
+| 11 | 2kΩ                                       | R4                      | 1        | 0.001 |
+| 16 | PTS645SH50SMTR92LFS                       | SW1,SW2                 | 2        | 0.418 |
+| 17 | FC-2012HRK-620D                           | LED1                    | 1        | 0.013 |
 
 # 2. Schematic
 
 ### Complete schematic
 
-![Schematic](/images/CustomDevBoardSchem.png)
+![Schematic](/images/ESP32Board.png)
 
 ---
 
@@ -96,23 +93,9 @@ This provides a permanently integrated diagnostic LED without requiring addition
 
 ---
 
-## 2.6 Connectors (GPIO expansion via pin headers)
+## 2.6 Connectors
 
-The large pin headers bring the most important GPIOs of the ESP32 to the outside and allow external hardware to be connected.
+Multiple headers are used to make routing more felxible and necessary pins easy to access. 
 
-The two headers **J1** and **J2** (each 1×14 pins) route signals such as IO21, IO19 (SPI_MISO), IO18 (SPI_SCK), IO5, IO17 (SBUS_TX), IO16 (SBUS_RX), IO4, IO35, IO32, IO33, IO25, IO26, IO27, IO14 (MFR), and IO12 (MRL) out of the board.  
-This allows motor drivers, sensors, and bus interfaces (SPI, SBUS, etc.) to be connected directly via connectors.
 
-This block turns the board into a flexibly usable ESP32 controller that is clearly designed for drive and control applications.
-
----
-
-## 2.7 UART header
-
-The UART header is used for programming and debugging via an external USB-UART interface.
-
-The header **J3** routes **TXD0, RXD0, 3.3 V, and GND** to the outside.  
-A USB-UART adapter can be connected directly to flash new firmware or read serial debug output.
-
-Together with the reset and boot buttons, this block replicates the typical ESP32 devkit programming environment.
 
